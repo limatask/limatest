@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "mapel": "Informatika",
+    "kelas": "9",
+    "bab": "Ujian Akhir Semester Informatika Kelas 9",
+    "durasi_menit": 90,
+    "token": "SMPN5INFO9",
+    "sheet_id": "PASTE_ID_SPREADSHEET_KAMU_DI_SINI"
+  },
+  "bank_soal": [
+    {
+      "id": 1,
+      "soal": "Proses memecah masalah besar menjadi bagian-bagian yang lebih kecil dan mudah dikelola disebut...",
+      "pilihan": ["Dekomposisi", "Pengenalan Pola", "Abstraksi", "Algoritma"],
+      "kunci": 0
+    },
+    {
+      "id": 2,
+      "soal": "Mencari kesamaan atau karakteristik umum dari beberapa masalah yang berbeda dinamakan...",
+      "pilihan": ["Dekomposisi", "Pengenalan Pola", "Abstraksi", "Algoritma"],
+      "kunci": 1
+    },
+    {
+      "id": 3,
+      "soal": "Mengabaikan detail yang tidak relevan dan fokus pada informasi penting saja disebut...",
+      "pilihan": ["Dekomposisi", "Pengenalan Pola", "Abstraksi", "Algoritma"],
+      "kunci": 2
+    },
+    {
+      "id": 4,
+      "soal": "Urutan langkah-langkah logis untuk menyelesaikan suatu masalah secara sistematis adalah definisi dari...",
+      "pilihan": ["Program", "Algoritma", "Flowchart", "Pseudocode"],
+      "kunci": 1
+    },
+    {
+      "id": 5,
+      "soal": "Simbol flowchart berbentuk jajaran genjang digunakan untuk menunjukkan proses...",
+      "pilihan": ["Start/Stop", "Proses perhitungan", "Input/Output data", "Keputusan (Decision)"],
+      "kunci": 2
+    },
+    {
+      "id": 6,
+      "soal": "Simbol belah ketupat pada flowchart melambangkan...",
+      "pilihan": ["Awal program", "Pengambilan keputusan (kondisi)", "Proses eksekusi", "Selesai"],
+      "kunci": 1
+    },
+    {
+      "id": 7,
+      "soal": "Struktur data linier yang menggunakan prinsip LIFO (Last In First Out) adalah...",
+      "pilihan": ["Queue", "Stack", "Tree", "Graph"],
+      "kunci": 1
+    },
+    {
+      "id": 8,
+      "soal": "Antrean di kasir swalayan merupakan contoh penerapan prinsip struktur data...",
+      "pilihan": ["Stack (FIFO)", "Queue (FIFO)", "Tree (LIFO)", "Graph (LIFO)"],
+      "kunci": 1
+    },
+    {
+      "id": 9,
+      "soal": "Operasi untuk menambahkan elemen baru ke dalam Stack dinamakan...",
+      "pilihan": ["Pop", "Push", "Enqueue", "Dequeue"],
+      "kunci": 1
+    },
+    {
+      "id": 10,
+      "soal": "Operasi untuk menghapus elemen dari depan antrean (Queue) disebut...",
+      "pilihan": ["Push", "Pop", "Enqueue", "Dequeue"],
+      "kunci": 3
+    },
+    {
+      "id": 11,
+      "soal": "Metode pengurutan data dengan cara membandingkan elemen yang berdekatan dan menukarnya jika urutannya salah dinamakan...",
+      "pilihan": ["Bubble Sort", "Selection Sort", "Insertion Sort", "Merge Sort"],
+      "kunci": 0
+    },
+    {
+      "id": 12,
+      "soal": "Algoritma pencarian yang membagi data terurut menjadi dua bagian secara berulang adalah...",
+      "pilihan": ["Linear Search", "Binary Search", "Bubble Search", "Sequential Search"],
+      "kunci": 1
+    },
+    {
+      "id": 13,
+      "soal": "Sistem bilangan yang hanya menggunakan angka 0 dan 1 dinamakan sistem bilangan...",
+      "pilihan": ["Desimal", "Biner", "Oktal", "Heksadesimal"],
+      "kunci": 1
+    },
+    {
+      "id": 14,
+      "soal": "Nilai desimal dari angka biner 1010 adalah...",
+      "pilihan": ["8", "10", "12", "14"],
+      "kunci": 1
+    },
+    {
+      "id": 15,
+      "soal": "Gerbang logika yang akan bernilai 1 (TRUE) hanya jika kedua input bernilai 1 adalah...",
+      "pilihan": ["OR", "AND", "NOT", "XOR"],
+      "kunci": 1
+    },
+    {
+      "id": 16,
+      "soal": "Gerbang logika yang berfungsi membalikkan nilai input (TRUE menjadi FALSE) adalah...",
+      "pilihan": ["AND", "OR", "NOT", "NAND"],
+      "kunci": 2
+    },
+    {
+      "id": 17,
+      "soal": "Bahasa pemrogram visual bermodalkan blok-blok warna yang disusun seperti puzzle dinamakan...",
+      "pilihan": ["Python", "Scratch", "C++", "Java"],
+      "kunci": 1
+    },
+    {
+      "id": 18,
+      "soal": "Dalam pemrograman, tempat untuk menyimpan data yang nilainya dapat berubah-ubah dinamakan...",
+      "pilihan": ["Konstanta", "Variabel", "Operator", "Fungsi"],
+      "kunci": 1
+    },
+    {
+      "id": 19,
+      "soal": "Tipe data yang digunakan untuk menyimpan teks atau sekumpulan karakter adalah...",
+      "pilihan": ["Integer", "Float", "String", "Boolean"],
+      "kunci": 2
+    },
+    {
+      "id": 20,
+      "soal": "Tipe data yang hanya bernilai Benar (True) atau Salah (False) dinamakan...",
+      "pilihan": ["Integer", "String", "Boolean", "Double"],
+      "kunci": 2
+    },
+    {
+      "id": 21,
+      "soal": "Struktur kontrol pemrograman yang digunakan untuk melakukan keputusan bersyarat adalah...",
+      "pilihan": ["For Loop", "If - Else", "While Loop", "Array"],
+      "kunci": 1
+    },
+    {
+      "id": 22,
+      "soal": "Struktur kontrol yang digunakan untuk mengulang perintah yang sama berkali-kali dinamakan...",
+      "pilihan": ["Looping (Perulangan)", "Branching (Percabangan)", "Input", "Output"],
+      "kunci": 0
+    },
+    {
+      "id": 23,
+      "soal": "Di bawah ini yang merupakan contoh bahasa pemrograman teks berorientasi objek dan populer untuk AI adalah...",
+      "pilihan": ["HTML", "CSS", "Python", "SQL"],
+      "kunci": 2
+    },
+    {
+      "id": 24,
+      "soal": "Kesalahan sintaks atau tata bahasa pada penulisan kode program dinamakan...",
+      "pilihan": ["Logic Error", "Syntax Error", "Runtime Error", "Hardware Error"],
+      "kunci": 1
+    },
+    {
+      "id": 25,
+      "soal": "Proses mencari dan memperbaiki kesalahan (error) pada kode program disebut...",
+      "pilihan": ["Coding", "Debugging", "Compiling", "Executing"],
+      "kunci": 1
+    },
+    {
+      "id": 26,
+      "soal": "Jaringan komputer yang mencakup area lokal yang sempit seperti dalam satu laboratorium sekolah disebut...",
+      "pilihan": ["LAN", "WAN", "MAN", "PAN"],
+      "kunci": 0
+    },
+    {
+      "id": 27,
+      "soal": "Jaringan komputer global yang menghubungkan miliaran perangkat di seluruh dunia adalah...",
+      "pilihan": ["Intranet", "Internet", "LAN", "Bluetooth"],
+      "kunci": 1
+    },
+    {
+      "id": 28,
+      "soal": "Alamat unik yang dimiliki oleh setiap perangkat yang terhubung ke jaringan internet disebut...",
+      "pilihan": ["MAC Address", "IP Address", "URL", "DNS"],
+      "kunci": 1
+    },
+    {
+      "id": 29,
+      "soal": "Layanan internet yang menerjemahkan nama domain (misal: google.com) menjadi alamat IP adalah...",
+      "pilihan": ["HTTP", "DNS", "FTP", "DHCP"],
+      "kunci": 1
+    },
+    {
+      "id": 30,
+      "soal": "Protokol aman yang digunakan untuk enkripsi komunikasi data di halaman web adalah...",
+      "pilihan": ["HTTP", "HTTPS", "FTP", "SMTP"],
+      "kunci": 1
+    },
+    {
+      "id": 31,
+      "soal": "Perangkat keras jaringan yang berfungsi menghubungkan beberapa jaringan berbeda dan mengarahkan lalu lintas data adalah...",
+      "pilihan": ["Switch", "Router", "Kabel UTP", "Modem"],
+      "kunci": 1
+    },
+    {
+      "id": 32,
+      "soal": "Tindakan kejahatan berupa penipuan untuk mencuri data sensitif seperti password melalui pesan/email palsu disebut...",
+      "pilihan": ["Phishing", "Spam", "Hacking", "Malware"],
+      "kunci": 0
+    },
+    {
+      "id": 33,
+      "soal": "Program jahat yang dirancang untuk merusak atau mencuri data dari komputer dinamakan...",
+      "pilihan": ["Software", "Hardware", "Malware", "Shareware"],
+      "kunci": 2
+    },
+    {
+      "id": 34,
+      "soal": "Upaya penyusupan ke sistem komputer tanpa izin untuk mencuri atau merusak data dinamakan...",
+      "pilihan": ["Phishing", "Hacking", "Ransomware", "Plagiarisme"],
+      "kunci": 1
+    },
+    {
+      "id": 35,
+      "soal": "Jejak aktivitas digital seseorang yang tertinggal saat menggunakan internet disebut...",
+      "pilihan": ["Digital Footprint", "Digital History", "Cookies", "Bookmark"],
+      "kunci": 0
+    },
+    {
+      "id": 36,
+      "soal": "Etika dan perilaku bertanggung jawab saat menggunakan teknologi informasi dan internet dinamakan...",
+      "pilihan": ["Cyber Crime", "Kewargaan Digital (Digital Citizenship)", "Netizen", "Sosialisasi Digital"],
+      "kunci": 1
+    },
+    {
+      "id": 37,
+      "soal": "Tindakan merundung, mengancam, atau mempermalukan seseorang melalui media digital dinamakan...",
+      "pilihan": ["Cyberstalking", "Cyberbullying", "Phishing", "Hacking"],
+      "kunci": 1
+    },
+    {
+      "id": 38,
+      "soal": "Penggunaan karya cipta orang lain tanpa mencantumkan sumber resmi atau tanpa izin dinamakan...",
+      "pilihan": ["Plagiarisme", "Lisensi", "Hak Cipta", "Open Source"],
+      "kunci": 0
+    },
+    {
+      "id": 39,
+      "soal": "Perangkat lunak yang kode sumbernya terbuka untuk diubah dan dikembangkan oleh siapa saja dinamakan...",
+      "pilihan": ["Proprietary Software", "Open Source Software", "Freeware", "Shareware"],
+      "kunci": 1
+    },
+    {
+      "id": 40,
+      "soal": "Undang-Undang di Indonesia yang mengatur tentang informasi dan transaksi elektronik adalah...",
+      "pilihan": ["UU HAM", "UU ITE", "UU Pendidikan", "UU Hak Cipta"],
+      "kunci": 1
+    },
+    {
+      "id": 41,
+      "soal": "Aplikasi pengolah lembar kerja (spreadsheet) yang sering digunakan untuk analisis data adalah...",
+      "pilihan": ["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint", "Paint"],
+      "kunci": 1
+    },
+    {
+      "id": 42,
+      "soal": "Rumus Excel yang digunakan untuk menghitung total penjumlahan sel adalah...",
+      "pilihan": ["AVERAGE", "SUM", "COUNT", "MAX"],
+      "kunci": 1
+    },
+    {
+      "id": 43,
+      "soal": "Fungsi spreadsheet yang digunakan untuk mencari nilai rata-rata dari sekelompok data adalah...",
+      "pilihan": ["SUM", "MIN", "AVERAGE", "IF"],
+      "kunci": 2
+    },
+    {
+      "id": 44,
+      "soal": "Fungsi spreadsheet logika yang digunakan untuk mengeksekusi nilai berdasarkan kondisi tertentu adalah...",
+      "pilihan": ["VLOOKUP", "IF", "COUNTIF", "AND"],
+      "kunci": 1
+    },
+    {
+      "id": 45,
+      "soal": "Fitur spreadsheet untuk mengurutkan data dari A ke Z atau dari kecil ke besar dinamakan...",
+      "pilihan": ["Filter", "Sort Ascending", "Sort Descending", "Group"],
+      "kunci": 1
+    },
+    {
+      "id": 46,
+      "soal": "Visualisasi data angka dalam bentuk grafik lingkaran dinamakan...",
+      "pilihan": ["Bar Chart", "Pie Chart", "Line Chart", "Scatter Plot"],
+      "kunci": 1
+    },
+    {
+      "id": 47,
+      "soal": "Proses membersihkan, mengolah, dan menganalisis data mentah untuk mengambil kesimpulan dinamakan...",
+      "pilihan": ["Analisis Data", "Data Mining", "Data Entry", "Input Data"],
+      "kunci": 0
+    },
+    {
+      "id": 48,
+      "soal": "Teknologi pencetakan 3 dimensi yang memungkinkan pembuatan objek fisik dari model digital dinamakan...",
+      "pilihan": ["3D Printing", "Plotter", "Scanner 3D", "CNC Machine"],
+      "kunci": 0
+    },
+    {
+      "id": 49,
+      "soal": "Konsep penghubung perangkat elektronik sehari-hari ke jaringan internet agar dapat dikontrol jarak jauh dinamakan...",
+      "pilihan": ["Artificial Intelligence", "Internet of Things (IoT)", "Cloud Computing", "Big Data"],
+      "kunci": 1
+    },
+    {
+      "id": 50,
+      "soal": "Kecerdasan buatan yang memungkinkan mesin belajar dari data tanpa diprogram secara eksplisit dinamakan...",
+      "pilihan": ["Virtual Reality", "Machine Learning", "Database", "Automation"],
+      "kunci": 1
+    }
+  ]
+}
