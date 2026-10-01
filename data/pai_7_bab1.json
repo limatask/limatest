@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "mapel": "PAI",
+    "kelas": "7",
+    "bab": "Bab 1: Asmaul Husna",
+    "durasi_menit": 60,
+    "token": "SMPN5PAI",
+    "sheet_id": "PASTE_ID_SPREADSHEET_KAMU_DI_SINI"
+  },
+  "bank_soal": [
+    {
+      "id": 1,
+      "soal": "Al-Alim artinya Allah Maha...",
+      "pilihan": ["Mengetahui", "Mendengar", "Melihat", "Teliti"],
+      "kunci": 0
+    },
+    {
+      "id": 2,
+      "soal": "Meneladani sifat Al-Khabir dapat dilakukan dengan...",
+      "pilihan": ["Teliti dalam bertindak", "Mendengar nasihat", "Melihat ciptaan-Nya", "Semangat belajar"],
+      "kunci": 0
+    },
+    {
+      "id": 3,
+      "soal": "Asmaul Husna Al-Sami' mengajarkan kita untuk...",
+      "pilihan": ["Menjaga pendengaran dari keburukan", "Berhati-hati dalam berbuat", "Rajin membaca", "Suka berbagi"],
+      "kunci": 0
+    }
+  ]
+}
