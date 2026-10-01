@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Guru - Limatask</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header-app" style="background: linear-gradient(135deg, #0f172a, #1e293b);">
+    <h1>AREA DOKUMEN & REKAP GURU</h1>
+    <p>Portal Administrator CBT Limatask - SMPN 5 Tangerang</p>
+  </header>
+
+  <div class="container">
+    
+    <div id="secLoginGuru" class="card">
+      <h3>Login Administrator Guru</h3>
+      <br>
+      <div class="form-group">
+        <label>PIN Keamanan Guru</label>
+        <input type="password" id="pinGuru" class="form-control" placeholder="Masukkan PIN Master (Default: 5555)">
+      </div>
+      <button class="btn" onclick="guruApp.login()">Masuk Dashboard</button>
+    </div>
+
+    <div id="secDashboard" class="hidden">
+      
+      <div class="card grid-2">
+        <button class="btn btn-secondary" onclick="guruApp.switchTab('tabRekap')">📊 Rekap Nilai Siswa</button>
+        <button class="btn btn-success" onclick="guruApp.switchTab('tabBankSoal')">📝 Generator Bank Soal JSON</button>
+      </div>
+
+      <div id="tabRekap" class="card">
+        <h3>Tarik Rekap Nilai dari Google Sheet</h3>
+        <br>
+        <div class="form-group">
+          <label>Google Sheet ID Target</label>
+          <input type="text" id="targetSheetId" class="form-control" placeholder="Masukkan Spreadsheet ID">
+        </div>
+        <button class="btn" onclick="guruApp.fetchRekap()">Tarik Data Nilai</button>
+        <button class="btn btn-success" style="margin-top:8px;" onclick="guruApp.exportToCSV()">Export to Excel (CSV)</button>
+
+        <div style="overflow-x:auto; margin-top:16px;">
+          <table border="1" style="width:100%; border-collapse:collapse; font-size:0.85rem;" id="tableRekap">
+            <thead>
+              <tr style="background:#f1f5f9;">
+                <th style="padding:8px;">Waktu</th>
+                <th>NISN</th>
+                <th>Nama</th>
+                <th>Kelas</th>
+                <th>Nilai</th>
+                <th>Pelanggaran</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td colspan="7" style="text-align:center; padding:12px;">Belum ada data ditarik.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="tabBankSoal" class="card hidden">
+        <h3>Form Generator Master Bank Soal</h3>
+        <br>
+        <div class="grid-2">
+          <div class="form-group"><label>Mapel</label><input type="text" id="genMapel" class="form-control" value="PAI"></div>
+          <div class="form-group"><label>Kelas</label><input type="text" id="genKelas" class="form-control" value="7"></div>
+        </div>
+        <div class="form-group"><label>Judul Bab</label><input type="text" id="genBab" class="form-control" value="Bab 1: Asmaul Husna"></div>
+        <div class="grid-2">
+          <div class="form-group"><label>Durasi (Menit)</label><input type="number" id="genDurasi" class="form-control" value="60"></div>
+          <div class="form-group"><label>Token Ujian</label><input type="text" id="genToken" class="form-control" value="SMPN5PAI"></div>
+        </div>
+        <div class="form-group"><label>Google Sheet ID Tujuan</label><input type="text" id="genSheetId" class="form-control" placeholder="Sheet ID untuk menyimpan nilai"></div>
+
+        <hr style="margin:20px 0;">
+
+        <h4>Tambah Master Soal</h4>
+        <br>
+        <div class="form-group"><label>Pertanyaan Soal</label><textarea id="inputSoalText" class="form-control" rows="2"></textarea></div>
+        <div class="form-group"><label>Pilihan A</label><input type="text" id="optA" class="form-control"></div>
+        <div class="form-group"><label>Pilihan B</label><input type="text" id="optB" class="form-control"></div>
+        <div class="form-group"><label>Pilihan C</label><input type="text" id="optC" class="form-control"></div>
+        <div class="form-group"><label>Pilihan D</label><input type="text" id="optD" class="form-control"></div>
+        <div class="form-group">
+          <label>Kunci Jawaban Benar</label>
+          <select id="optKunci" class="form-control">
+            <option value="0">Pilihan A</option>
+            <option value="1">Pilihan B</option>
+            <option value="2">Pilihan C</option>
+            <option value="3">Pilihan D</option>
+          </select>
+        </div>
+        <button class="btn btn-secondary" onclick="guruApp.addSoalToMemory()">+ Tambahkan Soal ke List</button>
+
+        <br>
+        <p>Total Soal Terinput: <b id="countSoal">0</b> Soal</p>
+        <br>
+        <button class="btn btn-success" onclick="guruApp.downloadJSON()">💾 Download File JSON Bank Soal</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="js/guru.js"></script>
+</body>
+</html>
