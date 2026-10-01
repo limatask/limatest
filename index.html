@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi SMPN 5</title>
+  <style>
+    :root {
+      --primary-color: #0d47a1;
+      --secondary-color: #1565c0;
+      --text-color: #333333;
+      --bg-light: #f4f6f9;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-light);
+      color: var(--text-color);
+    }
+
+    /* Header & Navigation */
+    header {
+      background-color: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+    }
+
+    /* Pengaturan Logo di Navbar */
+    .brand-logo {
+      height: 48px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .brand-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-color);
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--primary-color);
+    }
+
+    /* Main Content */
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 2rem;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 3rem 2rem;
+      border-radius: 12px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    /* Logo Besar di Hero Section */
+    .hero-logo {
+      height: 120px;
+      width: auto;
+      object-fit: contain;
+      background: white;
+      padding: 10px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      max-width: 600px;
+    }
+
+    /* Grid Kartu */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      color: var(--primary-color);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #ffffff;
+      margin-top: 3rem;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#" class="brand">
+        <!-- Panggil gambar logo lokal di sini -->
+        <img src="assets/logo_smp5.png" alt="Logo SMP 5" class="brand-logo">
+        <span class="brand-title">SMPN 5</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Informasi</a></li>
+        <li><a href="#">Pengumuman</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Content -->
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="assets/logo_smp5.png" alt="Logo SMP 5" class="hero-logo">
+      <h1>Selamat Datang di Portal SMPN 5</h1>
+      <p>Sistem Informasi & Layanan Akademik Terpadu untuk Siswa, Guru, dan Orang Tua.</p>
+    </section>
+
+    <!-- Menu / Informasi Grid -->
+    <section class="grid">
+      <div class="card">
+        <h3>Pengumuman Sekolah</h3>
+        <p>Akses informasi dan berita terbaru seputar kegiatan akademik dan non-akademik.</p>
+      </div>
+      <div class="card">
+        <h3>Jadwal Pelajaran</h3>
+        <p>Cek jadwal mata pelajaran harian dan ruang kelas secara langsung.</p>
+      </div>
+      <div class="card">
+        <h3>Nilai & Raport</h3>
+        <p>Pantau perkembangan hasil belajar siswa secara berkala di sini.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 SMPN 5. Hak Cipta Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
